@@ -149,12 +149,6 @@ func main() {
 			cfg.VenvNameSizeLimit = *args.VenvNameSizeLimit
 		case "jobs":
 			cfg.Jobs = *args.Jobs
-		case "git-assume-unchanged-size":
-			cfg.GitAssumeUnchangedSize = *args.GitAssumeUnchangedSize
-		case "git-disable-stats":
-			cfg.GitDisableStats = strings.Split(*args.GitDisableStats, ",")
-		case "git-mode":
-			cfg.GitMode = *args.GitMode
 		case "mode":
 			cfg.Mode = *args.Mode
 		case "theme":
